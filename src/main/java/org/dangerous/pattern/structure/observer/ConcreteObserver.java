@@ -3,10 +3,10 @@ package org.dangerous.pattern.structure.observer;
 /**
  * Created by Administrator on 2016/12/13.
  */
-public class ConcreateObserver implements Observer {
+public class ConcreteObserver implements Observer {
     private String name;
 
-    public ConcreateObserver(String name) {
+    public ConcreteObserver(String name) {
         this.name = name;
     }
 

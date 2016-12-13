@@ -5,10 +5,10 @@ package org.dangerous.pattern.structure.observer;
  */
 public class Client {
     public static void main(String[] args) {
-        Subject subject = new ConcreateSubject();
-        subject.addListener(new ConcreateObserver("监视1"));
-        subject.addListener(new ConcreateObserver("监视2"));
-        subject.addListener(new ConcreateObserver("监视3"));
+        Subject subject = new ConcreteSubject();
+        subject.addListener(new ConcreteObserver("监视1"));
+        subject.addListener(new ConcreteObserver("监视2"));
+        subject.addListener(new ConcreteObserver("监视3"));
         subject.update();
     }
 }
