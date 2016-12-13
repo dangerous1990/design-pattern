@@ -1,4 +1,4 @@
-package org.dangerous.pattern.bulid.singleton;
+package org.dangerous.pattern.build.singleton;
 
 /**
  * Created by Administrator on 2016/12/9.

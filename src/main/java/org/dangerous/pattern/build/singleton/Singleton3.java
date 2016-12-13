@@ -1,4 +1,4 @@
-package org.dangerous.pattern.bulid.singleton;
+package org.dangerous.pattern.build.singleton;
 
 /**
  * 懒加载：false
