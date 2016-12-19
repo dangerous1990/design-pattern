@@ -1,4 +1,4 @@
-package org.dangerous.pattern.behavior.ChainResponsibility;
+package org.dangerous.pattern.behavior.chainresponsibility;
 
 /**
  * 每个记录器消息的级别是否属于自己的级别，如果是则相应地打印出来，否则将不打印并把消息传给下一个记录器。

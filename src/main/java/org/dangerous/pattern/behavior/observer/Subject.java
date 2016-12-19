@@ -1,4 +1,4 @@
-package org.dangerous.pattern.structure.observer;
+package org.dangerous.pattern.behavior.observer;
 
 import java.util.ArrayList;
 import java.util.List;

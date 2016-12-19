@@ -1,4 +1,4 @@
-package org.dangerous.pattern.structure.observer;
+package org.dangerous.pattern.behavior.observer;
 
 /**
  * Created by Administrator on 2016/12/13.
