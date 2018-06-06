@@ -1,6 +1,7 @@
 package org.dangerous.pattern.structure.combination;
 
 /**
+ * 组合模式
  * Created by Administrator on 2016/12/22.
  */
 public class Client {

@@ -1,6 +1,7 @@
 package org.dangerous.pattern.behavior.mediator;
 
 /**
+ * 中介者模式
  * Created by Administrator on 2016/12/27.
  */
 public class Client {

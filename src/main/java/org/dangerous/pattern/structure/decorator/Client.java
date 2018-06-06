@@ -1,6 +1,7 @@
 package org.dangerous.pattern.structure.decorator;
 
 /**
+ * 装饰器模式
  * Created by Administrator on 2016/12/13.
  */
 public class Client {

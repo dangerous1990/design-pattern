@@ -1,6 +1,7 @@
 package org.dangerous.pattern.build.singleton;
 
 /**
+ * 双重检查
  * Created by Administrator on 2016/12/9.
  */
 public class Singleton5 {

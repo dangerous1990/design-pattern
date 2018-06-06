@@ -9,7 +9,7 @@ public class InfoLooger extends AbstractLogger {
     }
 
     @Override
-    void wirte(String message) {
+    void write(String message) {
         System.out.println("INFO LOG :" + message);
     }
 }

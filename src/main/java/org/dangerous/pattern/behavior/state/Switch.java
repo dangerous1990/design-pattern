@@ -4,7 +4,7 @@ package org.dangerous.pattern.behavior.state;
  * Created by Administrator on 2016/12/27.
  */
 public class Switch {
-    private static State state, onState, offState;
+    private State state, onState, offState;
     private String name;
 
     public Switch(String name) {
@@ -28,7 +28,7 @@ public class Switch {
         state.off(this);
     }
 
-    public static State getState(String type) {
+    public State getState(String type) {
         if (type.equalsIgnoreCase("on")) {
             return onState;
         } else {

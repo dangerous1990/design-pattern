@@ -1,6 +1,7 @@
 package org.dangerous.pattern.structure.proxy;
 
 /**
+ * 动态代理模式
  * Created by Administrator on 2016/12/15.
  */
 public class Client {

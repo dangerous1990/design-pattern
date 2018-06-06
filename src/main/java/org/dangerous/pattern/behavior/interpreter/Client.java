@@ -1,6 +1,7 @@
 package org.dangerous.pattern.behavior.interpreter;
 
 /**
+ * 解释器模式
  * Created by Administrator on 2016/12/20.
  */
 public class Client {

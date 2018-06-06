@@ -10,10 +10,10 @@ public class DeviceFactory {
     private int totalTerminal = 0;
 
     public DeviceFactory() {
-        NetworkDevice nd1 = new Switch("Cisco-WS-C2950-24");
-        devices.add(nd1);
-        NetworkDevice nd2 = new Hub("TP-LINK-HF8M");
-        devices.add(nd2);
+        NetworkDevice cisco = new Switch("Cisco-WS-C2950-24");
+        devices.add(cisco);
+        NetworkDevice tp = new Hub("TP-LINK-HF8M");
+        devices.add(tp);
     }
 
     public NetworkDevice getNetworkDevice(String type) {

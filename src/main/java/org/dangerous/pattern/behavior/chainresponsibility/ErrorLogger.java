@@ -9,7 +9,7 @@ public class ErrorLogger extends AbstractLogger {
     }
 
     @Override
-    void wirte(String message) {
+    void write(String message) {
         System.out.println("ERROR LOG :" + message);
     }
 }

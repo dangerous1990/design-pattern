@@ -13,14 +13,14 @@ public abstract class AbstractLogger implements Logger {
 
     @Override
     public void log(String message, int level) {
-        if (this.level >= level) {
-            wirte(message);
+        if (this.level == level) {
+            write(message);
         } else if (nextLogger != null) {
             nextLogger.log(message, level);
         }
     }
 
-    abstract void wirte(String message);
+    abstract void write(String message);
 
     public void setNextLogger(Logger nextLogger) {
         this.nextLogger = nextLogger;

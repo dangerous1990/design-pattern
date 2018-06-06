@@ -1,6 +1,7 @@
 package org.dangerous.pattern.behavior.state;
 
 /**
+ * 状态模式
  * Created by Administrator on 2016/12/27.
  */
 public class Client {
@@ -9,6 +10,7 @@ public class Client {
         s1 = new Switch("开关1");
         s2 = new Switch("开关2");
 
+        s1.on();
         s1.on();
         s2.on();
         s1.off();

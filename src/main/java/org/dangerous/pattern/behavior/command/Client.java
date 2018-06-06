@@ -1,6 +1,7 @@
 package org.dangerous.pattern.behavior.command;
 
 /**
+ * 命令模式
  * Created by Administrator on 2016/12/19.
  */
 public class Client {

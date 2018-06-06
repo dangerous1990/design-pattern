@@ -1,6 +1,7 @@
 package org.dangerous.pattern.behavior.memento;
 
 /**
+ * 备忘录模式
  * Created by Administrator on 2016/12/28.
  */
 public class Client {

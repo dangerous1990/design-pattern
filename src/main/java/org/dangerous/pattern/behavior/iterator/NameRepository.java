@@ -4,7 +4,7 @@ package org.dangerous.pattern.behavior.iterator;
  * Created by Administrator on 2016/12/20.
  */
 public class NameRepository implements Container {
-    public String names[] = {"Robert", "John", "Julie", "Lora"};
+    public final String[] names = {"Robert", "John", "Julie", "Lora"};
 
     @Override
     public Iterator getIterator() {

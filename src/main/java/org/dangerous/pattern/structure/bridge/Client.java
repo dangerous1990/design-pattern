@@ -1,6 +1,6 @@
 package org.dangerous.pattern.structure.bridge;
 
-/**
+/**桥接模式
  * Created by Administrator on 2016/12/22.
  */
 public class Client {

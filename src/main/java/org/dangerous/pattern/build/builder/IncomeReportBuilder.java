@@ -9,7 +9,6 @@ public class IncomeReportBuilder implements ReportBuilder {
     @Override
     public void buildHead(String head) {
         report.setHead(head);
-
     }
 
     @Override
